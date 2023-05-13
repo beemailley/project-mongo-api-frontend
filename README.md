@@ -1,19 +1,17 @@
-# Technigo React Starter App
+# Project Mongo API
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+The project for this week was to create a RESTful API using mongoose, MOngoDB, MongoDB Compass, and MongoDB Atlas. The API needed to have at least two endpoints - one that would return an array of data, and one that was capable of returning a specific/single item. There was also the option to accept filters via query parameters which I included.
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+## The problem
 
-## Usage
+I spent most of this week sick, so my main goals were to satisfy the requirements of the assignment. I relied heavily on replicating last project's functionality. However, I also spent a lot of time understanding MongoDB and incorporating mongoose. I chose to use data from Kaggle on Nintendo game releases from 1996-2021. I downloaded my data, and cleaned up the data set to make it more useable. When I began coding I wrote one endpoint at a time, testing it before moving to the next. Once my API was functioning, I deployed the backend, and began working on the frontend. I chose to use the frontend as a way to share the API documentation, and example data from different query values.
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+If I had more time, I would work on creating more endpoints and queries for my API
 
-Alternatively, if you don't want a new git repo on your account;
+## View it live
 
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+Deployed frontend: https://coruscating-treacle-fe0c52.netlify.app/
+
+Deployed API: https://project-mongo-api-wjvhdzdcja-lz.a.run.app/
+
+GitHub repo for API:  https://github.com/beemailley/project-mongo-api
